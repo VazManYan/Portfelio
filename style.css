@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora:wght@400;600&family=Merriweather&family=Montserrat&display=swap');
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    background: url(https://storage.needpix.com/rsynced_images/background-papier-blanc-3.jpg);
+    padding: 100px 0;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 131);
+}
+
+.container{
+    width: 800px;
+    min-height: 600px;
+    border: 10px solid rgb(255, 255, 255);
+    margin: 0 auto;
+    background: white;
+    padding: 10px 0;
+    font-weight:  bold;
+    
+}
+
+.header{
+    display: flex;
+    height: 150px;
+   
+}
+
+.title-block{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin-right: 10px;
+    font-size: 27px;
+    background: url("https://www.ishir.com/wp-content/uploads/2021/06/Custom-dimensions-670x450-px-Custom-dimensions-1024x276.jpeg") no-repeat center center/cover;
+}
+
+.userpic{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background: url("pictures/vazgen.jpg")  no-repeat center center/cover;
+}
+
+.nav ul{
+    display: flex;
+    background: rgb(233, 230, 230);
+    margin:  10px 0;
+    
+}
+
+.nav li a{
+    display: flex;
+    padding: 20px; 
+    text-decoration: none;
+    color: rgb(78, 75, 75);
+    font-weight: bold;
+    border-right: 1px solid rgb(121, 120, 120);
+  
+}
+
+.nav li a:hover{
+    background: rgb(197, 196, 196);
+}
+
+.content-wraper {
+    display: flex;
+}
+
+.content {
+    width: 70%;
+    padding: 30px;
+    text-align:justify;
+    font-size: 20px;
+    
+    
+}
+
+.content div{
+    line-height: 20px;
+}
+
+.sidebar {
+    
+    width: 30%;
+    padding: 20px;
+}
+
+.skils li{
+    margin: 10px 0;
+    font-weight: bold;
+
+}
+
+.person {
+    display: flex;
+    
+}
+
+.phone{
+    display: flex;
+    
+}
+
+.loc{
+    display: flex;
+    
+}
+
+.mail{
+    display: flex;
+    
+}
+
+.school{
+    display: flex;
+    
+}
+
+.leng{
+    display: flex;
+    
+}
+
+
+
+
+ 
+
+
+
